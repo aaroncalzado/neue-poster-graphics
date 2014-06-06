@@ -1,0 +1,44 @@
+.wenigerPoster {
+  background: url("images/weniger-larm/background.jpg") no-repeat top center;
+  background-size: 560px;
+  box-shadow:
+    rgba(156, 148, 148, 0.32) -6px 6px 8px,
+    rgba(156, 148, 148, 0.08) -2px 2px 25px;
+  height: 793px;
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 1; 
+    .wenigerHeadlineRight {
+      color: #db2929;
+      display: inline;
+      font-family: Helvetica;
+      font-size: 6.2rem;
+      font-weight: 700;
+      p {
+        padding-top: 36%;
+        text-align: right;
+        -webkit-transform: rotate(-50deg); /* Safari */
+          -moz-transform: rotate(-50deg); /* Firefox */
+          -ms-transform: rotate(-50deg); /* IE */
+          -o-transform: rotate(-50deg); /* Opera */
+        }
+    }
+    .wenigerHeadlineLeft {
+      color: #db2929;
+      display: inline;
+      font-family: Helvetica;
+      font-size: 6.2rem;
+      font-weight: 700;
+      p {
+        margin-left: -120px;
+        padding-top: 4%;
+        text-align: left;
+        -webkit-transform: rotate(-50deg); /* Safari */
+          -moz-transform: rotate(-50deg); /* Firefox */
+          -ms-transform: rotate(-50deg); /* IE */
+          -o-transform: rotate(-50deg); /* Opera */
+      }
+    }
+}

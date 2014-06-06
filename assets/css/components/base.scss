@@ -1,0 +1,25 @@
+/*
+Components: Base
+*/
+
+/*
+Anything that can’t be abstracted
+or assigned to another section.
+Low-level stuff. Typically only body
+and html styles.
+*/
+
+body {
+  overflow-x: hidden;
+}
+hr {
+  color: $colorCopy;
+  margin: 24px auto 24px auto;
+  width: 240px;
+}
+.binderClips {
+	margin: 16px auto -16px auto;
+	position: relative;
+	width: 560px;
+	z-index: 9;
+}

@@ -1,0 +1,10 @@
+/*
+Components: Poster Container
+*/
+
+.container {
+  @include outer-container;
+}
+.containerPoster {
+  @include span-columns(12);
+}

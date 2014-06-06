@@ -1,0 +1,48 @@
+/*
+Root: style.scss
+
+Imports all required SCSS files.
+This includes files for the components,
+parts, posters, and plugins
+*/
+
+
+/*
+All the required CSS stuff
+*/
+
+@import "parts/variables";
+@import "parts/reset";
+@import "components/base";
+
+
+/*
+CSS plugins and crap
+*/
+
+@import "plugins/all-plugins";
+
+
+/*
+All the CSS that make up the
+building blocks of the site
+*/
+
+@import "components/all-components";
+
+
+/*
+All the lower level stuff to
+style the building blocks of
+the site
+*/
+
+@import "parts/all-parts";
+
+
+/*
+Real specific CSS stuff used
+to design the posters
+*/
+
+@import "posters/all-posters";

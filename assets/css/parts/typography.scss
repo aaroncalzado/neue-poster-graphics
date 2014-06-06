@@ -1,0 +1,37 @@
+html {
+  font-family: $fontHouse, Helvetica, sans-serif;
+}
+
+a, a:active, a:hover, a:visited {
+  color: $colorCopy;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 400;
+    a, a:active, a:hover, a:visited {
+      color: $colorKnockout;
+      text-decoration: none;
+    }
+}
+
+header {
+  .mastNav {
+    a, a:active, a:hover, a:visited {
+      color: $colorKnockout;
+      text-decoration: none;
+    }
+  }
+}
+.posterTitle {
+  color: $colorCopy;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 24px auto 0 auto;
+  text-align: center;
+}
+.posterDescription {
+  font-size: 0.96rem;
+  margin: 8px auto 0 auto;
+  text-align: center;
+}
