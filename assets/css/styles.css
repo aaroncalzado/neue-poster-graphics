@@ -257,6 +257,83 @@ header .mastNav a, header .mastNav a:active, header .mastNav a:hover, header .ma
 Real specific CSS stuff used
 to design the posters
 */
+.womansDayPoster {
+  background-color: black;
+  box-shadow: rgba(156, 148, 148, 0.32) -6px 6px 8px, rgba(156, 148, 148, 0.08) -2px 2px 25px;
+  height: 560px;
+  width: 847px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 1; }
+  .womansDayPoster .shesGotTo {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 1.4rem;
+    font-weight: 400; }
+    .womansDayPoster .shesGotTo p {
+      padding-top: 32%;
+      margin: 0 auto -150px 132px; }
+  .womansDayPoster .goOut {
+    color: #fff;
+    display: block;
+    font-family: "futura-pt";
+    font-size: 22.4rem;
+    font-weight: 300; }
+    .womansDayPoster .goOut p {
+      letter-spacing: -16px;
+      margin-left: 24px;
+      text-align: left; }
+  .womansDayPoster .toGet {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 1.4rem;
+    font-weight: 400; }
+    .womansDayPoster .toGet p {
+      padding-top: 32%;
+      margin: -326px 80px 0 auto;
+      text-align: right; }
+  .womansDayPoster .theAP {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-weight: 400; }
+    .womansDayPoster .theAP p {
+      margin: 0 92px 0 auto;
+      text-align: right; }
+  .womansDayPoster .andWomans {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-style: italic;
+    font-weight: 400; }
+    .womansDayPoster .andWomans p {
+      margin: 8px 164px 0 auto;
+      text-align: right; }
+  .womansDayPoster .becauseWomans {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-weight: 400; }
+    .womansDayPoster .becauseWomans p {
+      margin: 3px 230px 0 auto;
+      text-align: right; }
+  .womansDayPoster .youCan {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-style: italic;
+    font-weight: 400; }
+    .womansDayPoster .youCan p {
+      margin: 3px 128px 0 auto;
+      text-align: right; }
+
 .wenigerPoster {
   background: url("images/weniger-larm/background.jpg") no-repeat top center;
   background-size: 560px;
@@ -302,3 +379,80 @@ to design the posters
       /* IE */
       -o-transform: rotate(-50deg);
       /* Opera */ }
+
+.womansDayPoster {
+  background-color: black;
+  box-shadow: rgba(156, 148, 148, 0.32) -6px 6px 8px, rgba(156, 148, 148, 0.08) -2px 2px 25px;
+  height: 560px;
+  width: 847px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 1; }
+  .womansDayPoster .shesGotTo {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 1.4rem;
+    font-weight: 400; }
+    .womansDayPoster .shesGotTo p {
+      padding-top: 32%;
+      margin: 0 auto -150px 132px; }
+  .womansDayPoster .goOut {
+    color: #fff;
+    display: block;
+    font-family: "futura-pt";
+    font-size: 22.4rem;
+    font-weight: 300; }
+    .womansDayPoster .goOut p {
+      letter-spacing: -16px;
+      margin-left: 24px;
+      text-align: left; }
+  .womansDayPoster .toGet {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 1.4rem;
+    font-weight: 400; }
+    .womansDayPoster .toGet p {
+      padding-top: 32%;
+      margin: -326px 80px 0 auto;
+      text-align: right; }
+  .womansDayPoster .theAP {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-weight: 400; }
+    .womansDayPoster .theAP p {
+      margin: 0 92px 0 auto;
+      text-align: right; }
+  .womansDayPoster .andWomans {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-style: italic;
+    font-weight: 400; }
+    .womansDayPoster .andWomans p {
+      margin: 8px 164px 0 auto;
+      text-align: right; }
+  .womansDayPoster .becauseWomans {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-weight: 400; }
+    .womansDayPoster .becauseWomans p {
+      margin: 3px 230px 0 auto;
+      text-align: right; }
+  .womansDayPoster .youCan {
+    color: #fff;
+    display: block;
+    font-family: "ltc-bodoni-175";
+    font-size: 0.1rem;
+    font-style: italic;
+    font-weight: 400; }
+    .womansDayPoster .youCan p {
+      margin: 3px 128px 0 auto;
+      text-align: right; }
