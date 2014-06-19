@@ -1,0 +1,254 @@
+.asianPoster {
+  background-color: #e3d5c2;
+  box-shadow:
+    rgba(156, 148, 148, 0.32) -6px 6px 8px,
+    rgba(156, 148, 148, 0.08) -2px 2px 25px;
+  height: 792px;
+  width: 558px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 1; 
+    .rowOne {
+      display: block;
+        .one-one {
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+            .nihonBuyo {
+              color: black;
+              display: block;
+              font-family: Helvetica;
+              font-size: 1.2rem;
+              font-weight: 700;
+              margin: 16px auto auto 6px;
+            }
+            .uclaLosAngeles {
+              color: black;
+              display: block;
+              font-family: Helvetica;
+              font-size: 0.84rem;
+              font-weight: 400;
+              letter-spacing: -0.25px;
+              line-height: 16px;
+              margin: 8px auto auto 6px;
+            }
+        }
+        .one-two {
+          background: #332f30;
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+        }
+        .one-three {
+          display: inline-block;
+          float: right;
+          height: 198px;
+          width: 186px;
+            .blueMoon {
+              background: #3dbac4;
+              -moz-border-radius: 86px;
+              -webkit-border-radius: 86px;
+              border-radius: 86px;
+              width: 172px;
+              height: 172px;
+              margin-top: 26px;
+              vertical-align: text-bottom;
+            } /* Cleaner, but slightly less support: use "50%" as value */
+        }
+    }
+    .rowTwo {
+      display: block;
+        .two-one {
+          background: #332f30;
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+        }
+        .two-two {
+          background: #fff;
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+            .two-two-a {
+              background: #9d7bb4;
+              height: 94px;
+              width: 186px;
+              z-index: 3;
+            }
+            .two-two-b {
+              background: #fff;
+              height: 56px;
+              width: 186px;
+              z-index: 3;
+                .ball-left {
+                  background: #e02540;
+                  -moz-border-radius: 22px;
+                  -webkit-border-radius: 22px;
+                  border-radius: 22px;
+                  float: left;
+                  width: 44px;
+                  height: 44px;
+                    .pupil-left {
+                      background: #332f30;
+                      height: 22px;
+                      width: 44px;
+                      border-radius: 44px 44px 0 0;
+                      -moz-border-radius: 44px 44px 0 0;
+                      -webkit-border-radius: 44px 44px 0 0;
+                      margin: 24px auto auto 12px;
+                      transform:rotate(30deg);
+                      -ms-transform:rotate(30deg); /* IE 9 */
+                      -webkit-transform:rotate(30deg); /* Opera, Chrome, and Safari */
+                    }
+                }
+                .ball-right {
+                  background: #e02540;
+                  -moz-border-radius: 22px;
+                  -webkit-border-radius: 22px;
+                  border-radius: 22px;
+                  float: right;
+                  width: 44px;
+                  height: 44px;
+                    .pupil-right {
+                      background: #332f30;
+                      height: 22px;
+                      width: 44px;
+                      border-radius: 44px 44px 0 0;
+                      -moz-border-radius: 44px 44px 0 0;
+                      -webkit-border-radius: 44px 44px 0 0;
+                      margin: 24px auto auto -12px;
+                      transform:rotate(-30deg);
+                      -ms-transform:rotate(-30deg); /* IE 9 */
+                      -webkit-transform:rotate(-30deg); /* Opera, Chrome, and Safari */
+                    }
+                }
+            }
+            .two-two-c {
+              background: -webkit-linear-gradient(pink, #fff); /* For Safari 5.1 to 6.0 */
+              background: -o-linear-gradient(pink, #fff); /* For Opera 11.1 to 12.0 */
+              background: -moz-linear-gradient(pink, #fff); /* For Firefox 3.6 to 15 */
+              background: linear-gradient(pink, #fff); /* Standard syntax */
+              height: 48px;
+              width: 186px;
+              z-index: 3;
+            }
+        }
+        .two-three {
+          background: #332f30;
+          display: inline-block;
+          float: right;
+          height: 198px;
+          width: 186px;
+        }
+    }
+    .rowThree {
+      display: block;
+        .three-one {
+          border-top: 198px solid #332f30;
+          border-left: 186px solid transparent;
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+        }
+        .three-two {
+          background: #fff;
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+            .lip {
+              background: #b93b3d;
+              -moz-border-radius: 12px;
+              -webkit-border-radius: 12px;
+              border-radius: 12px;
+              width: 24px;
+              height: 24px;
+              margin: 99px auto auto auto;
+            }
+            .mouth {
+              background: #e02540;
+              -moz-border-radius: 16px;
+              -webkit-border-radius: 16px;
+              border-radius: 16px;
+              width: 32px;
+              height: 32px;
+              margin: -20px auto auto auto;
+              transition: all 0.25s ease;
+              z-index: 4;
+            }
+            .mouth:hover {
+              background: #e02540;
+              border-radius: 0 0 36px 36px;
+              -moz-border-radius: 0 0 36px 36px;
+              -webkit-border-radius: 0 0 36px 36px;
+              width: 36px;
+              height: 18px;
+              margin: -16px auto auto auto;
+              z-index: 4;
+            }
+        }
+        .three-three {
+          border-top: 198px solid #332f30;
+          border-right: 186px solid transparent;
+          display: inline-block;
+          float: right;
+          height: 198px;
+          width: 186px;
+        }
+    }
+    .rowFour {
+      display: block;
+        .four-one {
+          border-bottom: 198px solid #334999;
+          border-left: 186px solid transparent;
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+        }
+        .four-two {
+          background: #fff;
+          border-bottom: 198px solid #1b977d;
+          border-left: 186px solid transparent;
+          display: inline-block;
+          float: left;
+          height: 198px;
+          width: 186px;
+        }
+        .four-three {
+          background: #e02540;
+          display: inline-block;
+          float: right;
+          height: 198px;
+          width: 186px;
+        }
+    }
+      .poster {
+      color: black;
+      display: block;
+      font-family: Helvetica;
+      font-size: 8rem;
+      font-weight: 900;
+      p {
+        letter-spacing: -4px;
+        line-height: 80%;
+      }
+    }
+    .graphics {
+      color: black;
+      display: block;
+      font-family: Helvetica;
+      font-size: 8rem;
+      font-weight: 900;
+      p {
+        letter-spacing: -4px;
+        line-height: 80%;
+      }
+    }
+}

@@ -1,0 +1,36 @@
+.asianPoster {
+  background-color: #f8a406;
+  box-shadow: rgba(156, 148, 148, 0.32) -6px 6px 8px, rgba(156, 148, 148, 0.08) -2px 2px 25px;
+  height: 792px;
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 1; }
+  .asianPoster .neue {
+    color: black;
+    display: block;
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .asianPoster .neue p {
+      letter-spacing: -4px;
+      line-height: 80%; }
+  .asianPoster .poster {
+    color: black;
+    display: block;
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .asianPoster .poster p {
+      letter-spacing: -4px;
+      line-height: 80%; }
+  .asianPoster .graphics {
+    color: black;
+    display: block;
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .asianPoster .graphics p {
+      letter-spacing: -4px;
+      line-height: 80%; }

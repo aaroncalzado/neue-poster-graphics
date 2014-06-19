@@ -257,82 +257,270 @@ header .mastNav a, header .mastNav a:active, header .mastNav a:hover, header .ma
 Real specific CSS stuff used
 to design the posters
 */
-.womansDayPoster {
-  background-color: black;
+.asianPoster {
+  background-color: #e3d5c2;
   box-shadow: rgba(156, 148, 148, 0.32) -6px 6px 8px, rgba(156, 148, 148, 0.08) -2px 2px 25px;
-  height: 560px;
-  width: 847px;
+  height: 792px;
+  width: 558px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
   z-index: 1; }
-  .womansDayPoster .shesGotTo {
-    color: #fff;
+  .asianPoster .rowOne {
+    display: block; }
+    .asianPoster .rowOne .one-one {
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+      .asianPoster .rowOne .one-one .nihonBuyo {
+        color: black;
+        display: block;
+        font-family: Helvetica;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 16px auto auto 6px; }
+      .asianPoster .rowOne .one-one .uclaLosAngeles {
+        color: black;
+        display: block;
+        font-family: Helvetica;
+        font-size: 0.84rem;
+        font-weight: 400;
+        letter-spacing: -0.25px;
+        line-height: 16px;
+        margin: 8px auto auto 6px; }
+    .asianPoster .rowOne .one-two {
+      background: #332f30;
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+    .asianPoster .rowOne .one-three {
+      display: inline-block;
+      float: right;
+      height: 198px;
+      width: 186px;
+      /* Cleaner, but slightly less support: use "50%" as value */ }
+      .asianPoster .rowOne .one-three .blueMoon {
+        background: #3dbac4;
+        -moz-border-radius: 86px;
+        -webkit-border-radius: 86px;
+        border-radius: 86px;
+        width: 172px;
+        height: 172px;
+        margin-top: 26px;
+        vertical-align: text-bottom; }
+  .asianPoster .rowTwo {
+    display: block; }
+    .asianPoster .rowTwo .two-one {
+      background: #332f30;
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+    .asianPoster .rowTwo .two-two {
+      background: #fff;
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+      .asianPoster .rowTwo .two-two .two-two-a {
+        background: #9d7bb4;
+        height: 94px;
+        width: 186px;
+        z-index: 3; }
+      .asianPoster .rowTwo .two-two .two-two-b {
+        background: #fff;
+        height: 56px;
+        width: 186px;
+        z-index: 3; }
+        .asianPoster .rowTwo .two-two .two-two-b .ball-left {
+          background: #e02540;
+          -moz-border-radius: 22px;
+          -webkit-border-radius: 22px;
+          border-radius: 22px;
+          float: left;
+          width: 44px;
+          height: 44px; }
+          .asianPoster .rowTwo .two-two .two-two-b .ball-left .pupil-left {
+            background: #332f30;
+            height: 22px;
+            width: 44px;
+            border-radius: 44px 44px 0 0;
+            -moz-border-radius: 44px 44px 0 0;
+            -webkit-border-radius: 44px 44px 0 0;
+            margin: 24px auto auto 12px;
+            transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            /* IE 9 */
+            -webkit-transform: rotate(30deg);
+            /* Opera, Chrome, and Safari */ }
+        .asianPoster .rowTwo .two-two .two-two-b .ball-right {
+          background: #e02540;
+          -moz-border-radius: 22px;
+          -webkit-border-radius: 22px;
+          border-radius: 22px;
+          float: right;
+          width: 44px;
+          height: 44px; }
+          .asianPoster .rowTwo .two-two .two-two-b .ball-right .pupil-right {
+            background: #332f30;
+            height: 22px;
+            width: 44px;
+            border-radius: 44px 44px 0 0;
+            -moz-border-radius: 44px 44px 0 0;
+            -webkit-border-radius: 44px 44px 0 0;
+            margin: 24px auto auto -12px;
+            transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg);
+            /* IE 9 */
+            -webkit-transform: rotate(-30deg);
+            /* Opera, Chrome, and Safari */ }
+      .asianPoster .rowTwo .two-two .two-two-c {
+        background: -webkit-linear-gradient(pink, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(pink, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(pink, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(pink, white);
+        /* Standard syntax */
+        height: 48px;
+        width: 186px;
+        z-index: 3; }
+    .asianPoster .rowTwo .two-three {
+      background: #332f30;
+      display: inline-block;
+      float: right;
+      height: 198px;
+      width: 186px; }
+  .asianPoster .rowThree {
+    display: block; }
+    .asianPoster .rowThree .three-one {
+      border-top: 198px solid #332f30;
+      border-left: 186px solid transparent;
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+    .asianPoster .rowThree .three-two {
+      background: #fff;
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+      .asianPoster .rowThree .three-two .lip {
+        background: #b93b3d;
+        -moz-border-radius: 12px;
+        -webkit-border-radius: 12px;
+        border-radius: 12px;
+        width: 24px;
+        height: 24px;
+        margin: 99px auto auto auto; }
+      .asianPoster .rowThree .three-two .mouth {
+        background: #e02540;
+        -moz-border-radius: 16px;
+        -webkit-border-radius: 16px;
+        border-radius: 16px;
+        width: 32px;
+        height: 32px;
+        margin: -20px auto auto auto;
+        transition: all 0.25s ease;
+        z-index: 4; }
+      .asianPoster .rowThree .three-two .mouth:hover {
+        background: #e02540;
+        border-radius: 0 0 36px 36px;
+        -moz-border-radius: 0 0 36px 36px;
+        -webkit-border-radius: 0 0 36px 36px;
+        width: 36px;
+        height: 18px;
+        margin: -16px auto auto auto;
+        z-index: 4; }
+    .asianPoster .rowThree .three-three {
+      border-top: 198px solid #332f30;
+      border-right: 186px solid transparent;
+      display: inline-block;
+      float: right;
+      height: 198px;
+      width: 186px; }
+  .asianPoster .rowFour {
+    display: block; }
+    .asianPoster .rowFour .four-one {
+      border-bottom: 198px solid #334999;
+      border-left: 186px solid transparent;
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+    .asianPoster .rowFour .four-two {
+      background: #fff;
+      border-bottom: 198px solid #1b977d;
+      border-left: 186px solid transparent;
+      display: inline-block;
+      float: left;
+      height: 198px;
+      width: 186px; }
+    .asianPoster .rowFour .four-three {
+      background: #e02540;
+      display: inline-block;
+      float: right;
+      height: 198px;
+      width: 186px; }
+  .asianPoster .poster {
+    color: black;
     display: block;
-    font-family: "ltc-bodoni-175";
-    font-size: 1.4rem;
-    font-weight: 400; }
-    .womansDayPoster .shesGotTo p {
-      padding-top: 32%;
-      margin: 0 auto -150px 132px; }
-  .womansDayPoster .goOut {
-    color: #fff;
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .asianPoster .poster p {
+      letter-spacing: -4px;
+      line-height: 80%; }
+  .asianPoster .graphics {
+    color: black;
     display: block;
-    font-family: "futura-pt";
-    font-size: 22.4rem;
-    font-weight: 300; }
-    .womansDayPoster .goOut p {
-      letter-spacing: -16px;
-      margin-left: 24px;
-      text-align: left; }
-  .womansDayPoster .toGet {
-    color: #fff;
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .asianPoster .graphics p {
+      letter-spacing: -4px;
+      line-height: 80%; }
+
+.neuePoster {
+  background-color: #f8a406;
+  box-shadow: rgba(156, 148, 148, 0.32) -6px 6px 8px, rgba(156, 148, 148, 0.08) -2px 2px 25px;
+  height: 793px;
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  z-index: 1; }
+  .neuePoster .neue {
+    color: black;
     display: block;
-    font-family: "ltc-bodoni-175";
-    font-size: 1.4rem;
-    font-weight: 400; }
-    .womansDayPoster .toGet p {
-      padding-top: 32%;
-      margin: -326px 80px 0 auto;
-      text-align: right; }
-  .womansDayPoster .theAP {
-    color: #fff;
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .neuePoster .neue p {
+      letter-spacing: -4px;
+      line-height: 80%; }
+  .neuePoster .poster {
+    color: black;
     display: block;
-    font-family: "ltc-bodoni-175";
-    font-size: 0.1rem;
-    font-weight: 400; }
-    .womansDayPoster .theAP p {
-      margin: 0 92px 0 auto;
-      text-align: right; }
-  .womansDayPoster .andWomans {
-    color: #fff;
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .neuePoster .poster p {
+      letter-spacing: -4px;
+      line-height: 80%; }
+  .neuePoster .graphics {
+    color: black;
     display: block;
-    font-family: "ltc-bodoni-175";
-    font-size: 0.1rem;
-    font-style: italic;
-    font-weight: 400; }
-    .womansDayPoster .andWomans p {
-      margin: 8px 164px 0 auto;
-      text-align: right; }
-  .womansDayPoster .becauseWomans {
-    color: #fff;
-    display: block;
-    font-family: "ltc-bodoni-175";
-    font-size: 0.1rem;
-    font-weight: 400; }
-    .womansDayPoster .becauseWomans p {
-      margin: 3px 230px 0 auto;
-      text-align: right; }
-  .womansDayPoster .youCan {
-    color: #fff;
-    display: block;
-    font-family: "ltc-bodoni-175";
-    font-size: 0.1rem;
-    font-style: italic;
-    font-weight: 400; }
-    .womansDayPoster .youCan p {
-      margin: 3px 128px 0 auto;
-      text-align: right; }
+    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 900; }
+    .neuePoster .graphics p {
+      letter-spacing: -4px;
+      line-height: 80%; }
 
 .wenigerPoster {
   background: url("images/weniger-larm/background.jpg") no-repeat top center;
