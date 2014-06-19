@@ -11,10 +11,14 @@ http://imgur.com/gallery/SWL87
 ### Who This Repo is For
 This repo is mostly for me.
 
-### Technology used in the Asian Performing Arts Institute, UCLA poster:
+#### Technology used in the Asian Performing Arts Institute, UCLA poster:
+
 http://css-tricks.com/examples/ShapesOfCSS/
+
 http://www.paulund.co.uk/how-to-create-different-shapes-in-css
+
 http://www.w3schools.com/css/css3_gradients.asp
+
 http://sarasoueidan.com/blog/animating-css-shapes/
 
 ## Workflow
