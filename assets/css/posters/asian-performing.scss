@@ -1,3 +1,7 @@
+/*--------------------------------*\
+    Asian Performing Arts...
+\*--------------------------------*/
+
 .asianPoster {
   background-color: #e3d5c2;
   box-shadow:
@@ -56,7 +60,7 @@
               height: 172px;
               margin-top: 26px;
               vertical-align: text-bottom;
-            } /* Cleaner, but slightly less support: use "50%" as value */
+            } // Cleaner, but slightly less support: use "50%" as value
         }
     }
     .rowTwo {
@@ -102,8 +106,8 @@
                       -webkit-border-radius: 44px 44px 0 0;
                       margin: 24px auto auto 12px;
                       transform:rotate(30deg);
-                      -ms-transform:rotate(30deg); /* IE 9 */
-                      -webkit-transform:rotate(30deg); /* Opera, Chrome, and Safari */
+                      -ms-transform:rotate(30deg); // IE 9
+                      -webkit-transform:rotate(30deg); // Opera, Chrome, and Safari
                     }
                 }
                 .ball-right {
@@ -123,16 +127,16 @@
                       -webkit-border-radius: 44px 44px 0 0;
                       margin: 24px auto auto -12px;
                       transform:rotate(-30deg);
-                      -ms-transform:rotate(-30deg); /* IE 9 */
-                      -webkit-transform:rotate(-30deg); /* Opera, Chrome, and Safari */
+                      -ms-transform:rotate(-30deg); // IE 9
+                      -webkit-transform:rotate(-30deg); // Opera, Chrome, and Safari
                     }
                 }
             }
             .two-two-c {
-              background: -webkit-linear-gradient(pink, #fff); /* For Safari 5.1 to 6.0 */
-              background: -o-linear-gradient(pink, #fff); /* For Opera 11.1 to 12.0 */
-              background: -moz-linear-gradient(pink, #fff); /* For Firefox 3.6 to 15 */
-              background: linear-gradient(pink, #fff); /* Standard syntax */
+              background: -webkit-linear-gradient(pink, #fff); // For Safari 5.1 to 6.0
+              background: -o-linear-gradient(pink, #fff); // For Opera 11.1 to 12.0
+              background: -moz-linear-gradient(pink, #fff); // For Firefox 3.6 to 15
+              background: linear-gradient(pink, #fff); // Standard syntax
               height: 48px;
               width: 186px;
               z-index: 3;

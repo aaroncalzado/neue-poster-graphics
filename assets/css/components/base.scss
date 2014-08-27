@@ -1,25 +1,25 @@
-/*
-Components: Base
-*/
+/*--------------------------------*\
+    Base
+\*--------------------------------*/
 
-/*
-Anything that can’t be abstracted
-or assigned to another section.
-Low-level stuff. Typically only body
-and html styles.
-*/
+// Anything that can’t be abstracted or
+// assigned to another section. Low-level
+// stuff. Typically only body and html styles.
 
 body {
   overflow-x: hidden;
 }
-hr {
-  color: $colorCopy;
-  margin: 24px auto 24px auto;
-  width: 240px;
-}
+// hr {
+//   color: #efefef;
+//   margin: 24px auto 24px auto;
+//   width: 100%;
+// }
 .binderClips {
-	margin: 16px auto -16px auto;
-	position: relative;
-	width: 560px;
-	z-index: 9;
+  margin: 16px auto -16px auto;
+  position: relative;
+  width: 560px;
+  z-index: 9;
+}
+section.posterContent {
+  padding: 8px 0 72px;
 }

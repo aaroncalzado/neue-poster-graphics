@@ -1,3 +1,7 @@
+/*--------------------------------*\
+    Woman's Day Advetisement...
+\*--------------------------------*/
+
 .womansDayPoster {
   background-color: black;
   box-shadow:
@@ -8,29 +12,38 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  z-index: 1; 
+  z-index: 1;
+  .bike {
+    margin: 0 0 0 83px;
+    position: absolute;
+    z-index: 14;
+      img {
+        @extend .bike;
+        width: 496px;
+      }
+  }
     .shesGotTo {
       color: #fff;
       display: block;
       font-family: $fontWomans;
-      font-size: 1.4rem;
+      font-size: 1.24rem;
       font-weight: 400;
-      p {
-        padding-top: 32%;
-        margin: 0 auto -150px 132px;
-      }
+        p {
+          padding-top: 32.8%;
+          margin: 0 auto -150px 132px;
+        }
     }
     .goOut {
       color: #fff;
       display: block;
       font-family: $fontWomansTitle;
-      font-size: 22.4rem;
+      font-size: 21.6rem;
       font-weight: 300;
-      p {
-        letter-spacing: -16px;
-        margin-left: 24px;
-        text-align: left;
-      }
+        p {
+          letter-spacing: -8px;
+          margin-left: 22px;
+          text-align: left;
+        }
     }
     .toGet {
       color: #fff;
@@ -40,7 +53,7 @@
       font-weight: 400;
       p {
         padding-top: 32%;
-        margin: -326px 80px 0 auto;
+        margin: -318px 80px 0 auto;
         text-align: right;
       }
     }

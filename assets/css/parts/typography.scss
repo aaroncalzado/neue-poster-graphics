@@ -1,3 +1,7 @@
+/*--------------------------------*\
+    Typography
+\*--------------------------------*/
+
 html {
   font-family: $fontHouse, Helvetica, sans-serif;
 }
@@ -23,15 +27,47 @@ header {
     }
   }
 }
+
+
 .posterTitle {
   color: $colorCopy;
   font-size: 1rem;
   font-weight: 700;
-  margin: 24px auto 0 auto;
+  margin: 24px auto 16px auto;
   text-align: center;
 }
+
 .posterDescription {
-  font-size: 0.96rem;
-  margin: 8px auto 0 auto;
-  text-align: center;
+
+  p {
+    color: $colorCopyLight;
+    font-family: $fontBodyHouse, Helvetica, sans-serif;
+    font-size: 0.72rem;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    margin: 8px auto 0 auto;
+    text-align: center;
+
+      a, a:active, a:hover, a:visited {
+        border-bottom: 1px solid $colorCopyLight;
+        color: $colorCopyLight;
+        padding-bottom: 2px;
+        text-decoration: none;
+      }
+  }
+}
+
+
+footer {
+  p {
+    font-size: 0.72rem;
+    text-align: center;
+  }
+
+  a, a:active, a:hover, a:visited {
+    border-bottom: 1px solid $colorCopyLight;
+    color: $colorCopyLight;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
 }
