@@ -14,18 +14,29 @@ h1 {
   font-size: 1rem;
   font-weight: 400;
     a, a:active, a:hover, a:visited {
-      color: $colorKnockout;
+      color: $colorCopy;
       text-decoration: none;
     }
 }
 
 header {
-  .mastNav {
-    a, a:active, a:hover, a:visited {
-      color: $colorKnockout;
-      text-decoration: none;
+  text-align: center;
+    h1 {
+      margin: auto auto 8px auto;
     }
-  }
+
+    p {
+      color: $colorCopyLight;
+      font-size: 0.72rem;
+      line-height: 1.6rem;
+      text-align: center;
+        a, a:active, a:hover, a:visited {
+          border-bottom: 1px solid $colorCopyLight;
+          color: $colorCopyLight;
+          padding-bottom: 2px;
+          text-decoration: none;
+        }
+    }
 }
 
 

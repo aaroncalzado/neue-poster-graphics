@@ -3,17 +3,7 @@
 \*--------------------------------*/
 
 header {
-  background-color: $colorHouse;
-  box-shadow:
-    rgba(156, 148, 148, 0.32) -2px 2px 8px,
-    rgba(156, 148, 148, 0.08) -2px 2px 25px;
-  padding: 24px;
-  height: 64px;
-  width: 100%;
-  h1 {
-  	float: left;
-  }
-  .mastNav {
-  	float: right;
-  }
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  margin: 64px auto 8px auto;
+  padding: 0 0 40px;
 }

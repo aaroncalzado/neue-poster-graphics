@@ -11,7 +11,7 @@ The idea for this project all started when I stumbled upon some beautifully rend
 
 ### Who This Repo is For
 
-I initally created this repo for myself to serve as a living documentation of my design process, but have left it open for the public to see. I encourage you to peruse, clone, fork, comment, and give feedback.
+I initally created this repo for myself to serve as a living documentation of my design process, but have left it open for the public to see. I encourage you to peruse, clone, fork, comment, and give feedback on my work. Mahalos!
 
 
 ### Tech Specs
@@ -51,6 +51,10 @@ Other frameworks and tools:
 Fonts used:
 * [Futura PT](https://typekit.com/fonts/futura-pt)
 * [ITC Bodoni 175](https://typekit.com/fonts/ltc-bodoni-175)
+
+[Hyperlapse](https://itunes.apple.com/us/app/hyperlapse-from-instagram/id740146917?mt=8) by Instagram
+
+[Website Background Video](http://www.website-html-template.com/applications/backgroundvideo/)
 
 ## Workflow
 
